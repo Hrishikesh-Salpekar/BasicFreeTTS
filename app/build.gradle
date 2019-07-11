@@ -25,7 +25,16 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    implementation files('libs/freetts.jar')
-    implementation files('libs/jsapi.jar')
+    //implementation files('libs/freetts.jar')
+    //implementation files('libs/jsapi.jar')
+    // https://mvnrepository.com/artifact/net.sf.sociaal/freetts
+    implementation group: 'net.sf.sociaal', name: 'freetts', version: '1.2.2'
+    implementation 'com.mapzen.android:speakerbox:1.4.1'
+    // https://mvnrepository.com/artifact/org.mobicents.external.freetts/cmu_us_kal
+  //  implementation group: 'org.mobicents.external.freetts', name: 'cmu_us_kal', version: '1.0'
+
+
+
+
 
 }
